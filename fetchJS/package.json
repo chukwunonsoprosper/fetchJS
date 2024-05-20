@@ -1,0 +1,29 @@
+{
+  "name": "GoFetchJS",
+  "version": "1.0.0",
+  "description": "fetchJS is a lightweight JavaScript library designed to streamline the process of making HTTP requests in client-side applications. With fetchJS, developers can easily fetch resources from the internet without the hassle of dealing with complex XMLHttpRequest or fetch API configurations.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fetch",
+    "http",
+    "request",
+    "cors-proxy",
+    "ajax"
+  ],
+  "author": "Chukwunonso prosper",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chukwunonsoprosper/fetchJS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chukwunonsoprosper/fetchJS/issues"
+  },
+  "homepage": "https://github.com/chukwunonsoprosper/fetchJS#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}

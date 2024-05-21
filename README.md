@@ -18,7 +18,11 @@ To use fetchJS, simply install the library via npm:
 
 ```bash
 npm i gofetchjs
+```
 
+Or clone the repo
+
+```bash
 git clone https://github.com/chukwunonsoprosper/fetchJS.git
 ```
 

@@ -18,6 +18,8 @@ To use fetchJS, simply install the library via npm:
 
 ```bash
 npm i gofetchjs
+
+git clone https://github.com/chukwunonsoprosper/fetchJS.git
 ```
 
 Then import the fetchJS function into your JavaScript file and invoke it with the desired parameters:

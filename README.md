@@ -84,4 +84,5 @@ fetchData();
 
 Whether you're building a simple web application or a complex single-page application (SPA), fetchJS is the perfect tool for handling HTTP requests with ease and efficiency.
 
-## Documentation coming soon
+## check out the documentation @ 
+https://fetchjsdoc.vercel.app/

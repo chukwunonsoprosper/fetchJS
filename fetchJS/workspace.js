@@ -8,7 +8,9 @@
  * Import the main fetch module from: PATH_TO_FETCH/fetch.js
  * Import the fetchJS proxy module from: PATH_TO_FETCH/fetchjsproxy.js
  *
- * Let's start fetching data!
+ * Let's get started with fetchJS 
+ * 
+ * Doc: https://fetchjsdoc.vercel.app/
  */
 
 import { fetchJS } from "./fetch.js";

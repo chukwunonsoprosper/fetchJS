@@ -22,6 +22,11 @@ import { fetchJsProxy } from "./proxy/fetchjsproxy.js";
  * Define your variables and update their values according to your requirements.
  *
  * Start by updating the 'url' variable with your desired endpoint URL.
+ * 
+ * Method should either be text/html or rest depending on your API docs
+ * 
+ * Response type text or json without parenthesis
+ * 
  */
 
 let url = "https://api.api-ninjas.com/v1/facts?X-Api-Key=XFyJSx4tBYXJ0Pmvahr98A==DHpgfdRNRxLJQP9v";

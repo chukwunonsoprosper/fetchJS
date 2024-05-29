@@ -20,6 +20,12 @@ To use fetchJS, simply install the library via npm:
 npm i gofetchjs
 ```
 
+Or clone the repo
+
+```bash
+git clone https://github.com/chukwunonsoprosper/fetchJS.git
+```
+
 Then import the fetchJS function into your JavaScript file and invoke it with the desired parameters:
 
 ```javascript
@@ -39,6 +45,36 @@ fetchJS(url, method, content_type, response_type).then(result => {
 });
 ```
 
+fetchJS comes with a built in proxy server, to use this server, you import it to your working directory
+
+```javascript
+import { fetchJsProxy } from "./proxy/fetchjsproxy.js";
+
+//sample post method
+
+
+let fetchJsproxyserver = fetchJsProxy();
+
+async function fetchData() {
+  let url = fetchJsproxyserver; // + API_URL
+
+  let option = {
+    /**
+     * post request body, header, content-type, origin
+     */
+  }
+
+  try {
+      //all other code goes here
+  } catch (error) {
+    //handle error message
+  }
+}
+
+fetchData();
+
+```
+
 ## Why fetchJS?
 - **Saves Time and Effort:** fetchJS simplifies the process of making HTTP requests, saving developers time and effort when implementing client-server communication in their applications.
 
@@ -48,4 +84,5 @@ fetchJS(url, method, content_type, response_type).then(result => {
 
 Whether you're building a simple web application or a complex single-page application (SPA), fetchJS is the perfect tool for handling HTTP requests with ease and efficiency.
 
-## Documentation coming soon
+## check out the documentation @ 
+https://fetchjsdoc.vercel.app/

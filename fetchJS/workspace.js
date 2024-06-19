@@ -29,7 +29,7 @@ import { fetchJsProxy } from "./proxy/fetchjsproxy.js";
  * 
  */
 
-let url = "https://api.api-ninjas.com/v1/facts?X-Api-Key=XFyJSx4tBYXJ0Pmvahr98A==DHpgfdRNRxLJQP9v";
+let url = "https://api.api-ninjas.com/v1/facts?X-Api-Key=[YOUR_API_KEY]";
 let method = "GET";
 let content_type = "text/html";
 let response_type = "text";
@@ -38,11 +38,15 @@ let response_type = "text";
  * Initialize the fetchJS module
  *
  * Pass the variables you created into the fetchJS function parameters (4).
- * If the result does not meet your expectations, consider using JSON.stringify() and JSON.parse().
  */
 
 fetchJS(url, method, content_type, response_type).then((result) => {
   console.log(result);
+
+  /**
+   *  If the result does not meet your expectations, consider using JSON.stringify() and JSON.parse().
+   */
+
 });
 
 /**
@@ -59,6 +63,7 @@ async function fetchData() {
 
   /**
    * All code to initialize the fetch API POST request goes here.
+   * Use the custom fetch method for the post request
    */
 }
 

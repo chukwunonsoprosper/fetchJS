@@ -14,6 +14,14 @@
 
 ## Usage:
 
+Link the script tag to your html file
+
+```javascript
+  <script type='module' src='./workspace.js'>
+
+  //make sure, the location to workspace.js, is linked correctly
+```
+
 To use fetchJS, simply install the library via npm:
 
 ```bash
@@ -33,7 +41,7 @@ import { fetchJS } from "./fetch.js";
 
 //sample api request
 
-let url = 'https://api.api-ninjas.com/v1/facts?X-Api-Key=XFyJSx4tBYXJ0Pmvahr98A==DHpgfdRNRxLJQP9v';
+let url = 'https://api.api-ninjas.com/v1/facts?X-Api-Key={YOUR_API_KEY}';
 let method = 'GET';
 let content_type = 'text/html';
 let response_type = 'text';
@@ -84,5 +92,7 @@ fetchData();
 
 Whether you're building a simple web application or a complex single-page application (SPA), fetchJS is the perfect tool for handling HTTP requests with ease and efficiency.
 
-## check out the documentation @ 
+## check out the documentation  
+```bash
 https://fetchjsdoc.vercel.app/
+```

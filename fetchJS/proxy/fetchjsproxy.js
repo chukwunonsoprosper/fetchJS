@@ -1,7 +1,5 @@
-import{proxyS}from"../fetch.js";export function fetchJsProxy(){return proxyS()}
+import { proxyS } from "../fetch.js";
 
-/**
- * do not edit this section
- * 
- * fetchJS proxy
- */
+export function fetchJsProxy(){
+    return proxyS();
+}

@@ -33,7 +33,7 @@ import { fetchJS } from "./fetch.js";
 
 //sample api request
 
-let url = 'https://api.api-ninjas.com/v1/facts?X-Api-Key=XFyJSx4tBYXJ0Pmvahr98A==DHpgfdRNRxLJQP9v';
+let url = 'https://api.api-ninjas.com/v1/facts?X-Api-Key=SOME_API_KEY';
 let method = 'GET';
 let content_type = 'text/html';
 let response_type = 'text';
